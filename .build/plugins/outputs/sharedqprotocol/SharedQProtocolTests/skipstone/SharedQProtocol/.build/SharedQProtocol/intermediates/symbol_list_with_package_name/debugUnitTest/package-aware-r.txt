@@ -1,0 +1,3 @@
+shared.qprotocol.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

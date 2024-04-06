@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.annotation:annotation-experimental:1.1.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/paytondev/.gradle/caches/transforms-4/ac8a6790c3c20c7cb662029980702112/transformed/annotation-experimental-1.1.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.annotation:annotation-experimental:1.1.0" from-dependency="true" generated-set="androidx.annotation:annotation-experimental:1.1.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/paytondev/.gradle/caches/transforms-4/ac8a6790c3c20c7cb662029980702112/transformed/annotation-experimental-1.1.0/res"><file path="/Users/paytondev/.gradle/caches/transforms-4/ac8a6790c3c20c7cb662029980702112/transformed/annotation-experimental-1.1.0/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":SkipLib$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipLib/.build/SharedQProtocol/intermediates/packaged_res/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":SkipLib" from-dependency="true" generated-set=":SkipLib$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipLib/.build/SharedQProtocol/intermediates/packaged_res/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":SkipFoundation$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipFoundation/.build/SharedQProtocol/intermediates/packaged_res/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":SkipFoundation" from-dependency="true" generated-set=":SkipFoundation$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipFoundation/.build/SharedQProtocol/intermediates/packaged_res/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":SkipUnit$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipUnit/.build/SharedQProtocol/intermediates/packaged_res/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":SkipUnit" from-dependency="true" generated-set=":SkipUnit$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipUnit/.build/SharedQProtocol/intermediates/packaged_res/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.test:core:1.5.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.test:core:1.5.0" from-dependency="true" generated-set="androidx.test:core:1.5.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/res"><file path="/Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/res/values-v28/values.xml" qualifiers="v28"><style name="WhiteBackgroundDialogTheme" parent="@android:style/Theme.Material.Dialog.NoActionBar">
+<item name="android:windowNoTitle">true</item>
+<item name="android:windowFullscreen">false</item>
+<item name="android:windowOverscan">true</item>
+<item name="android:fadingEdge">none</item>
+<item name="android:windowBackground">@android:color/white</item>
+<item name="android:windowContentTransitions">false</item>
+<item name="android:windowAnimationStyle">@null</item>
+</style><style name="WhiteBackgroundTheme" parent="@android:style/Theme.Material.NoActionBar.Fullscreen">
+<item name="android:windowNoTitle">true</item>
+<item name="android:windowFullscreen">false</item>
+<item name="android:windowOverscan">true</item>
+<item name="android:fadingEdge">none</item>
+<item name="android:windowBackground">@android:color/white</item>
+<item name="android:windowContentTransitions">false</item>
+<item name="android:windowAnimationStyle">@null</item>
+</style></file><file path="/Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/res/values-v21/values.xml" qualifiers="v21"><style name="WhiteBackgroundDialogTheme" parent="@android:style/Theme.Holo.Dialog.NoActionBar">
+<item name="android:windowNoTitle">true</item>
+<item name="android:windowFullscreen">false</item>
+<item name="android:windowOverscan">true</item>
+<item name="android:fadingEdge">none</item>
+<item name="android:windowBackground">@android:color/white</item>
+<item name="android:windowContentTransitions">false</item>
+<item name="android:windowAnimationStyle">@null</item>
+</style><style name="WhiteBackgroundTheme" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+<item name="android:windowNoTitle">true</item>
+<item name="android:windowFullscreen">false</item>
+<item name="android:windowOverscan">true</item>
+<item name="android:fadingEdge">none</item>
+<item name="android:windowBackground">@android:color/white</item>
+<item name="android:windowContentTransitions">false</item>
+<item name="android:windowAnimationStyle">@null</item>
+</style></file><file path="/Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/res/values-v18/values.xml" qualifiers="v18"><style name="WhiteBackgroundDialogTheme" parent="@android:style/Theme.Holo.Dialog.NoActionBar">
+<item name="android:windowNoTitle">true</item>
+<item name="android:windowFullscreen">false</item>
+<item name="android:windowOverscan">true</item>
+<item name="android:fadingEdge">none</item>
+<item name="android:windowBackground">@android:color/white</item>
+<item name="android:windowAnimationStyle">@null</item>
+</style><style name="WhiteBackgroundTheme" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+<item name="android:windowNoTitle">true</item>
+<item name="android:windowFullscreen">false</item>
+<item name="android:windowOverscan">true</item>
+<item name="android:fadingEdge">none</item>
+<item name="android:windowBackground">@android:color/white</item>
+<item name="android:windowAnimationStyle">@null</item>
+</style></file><file path="/Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/res/values/values.xml" qualifiers=""><style name="WhiteBackgroundDialogTheme" parent="@android:style/Theme.Holo.Dialog.NoActionBar">
+<item name="android:windowNoTitle">true</item>
+<item name="android:windowFullscreen">false</item>
+<item name="android:fadingEdge">none</item>
+<item name="android:windowBackground">@android:color/white</item>
+<item name="android:windowAnimationStyle">@null</item>
+</style><style name="WhiteBackgroundTheme" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+<item name="android:windowNoTitle">true</item>
+<item name="android:windowFullscreen">false</item>
+<item name="android:fadingEdge">none</item>
+<item name="android:windowBackground">@android:color/white</item>
+<item name="android:windowAnimationStyle">@null</item>
+</style></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":SharedQProtocol$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SharedQProtocol/.build/SharedQProtocol/intermediates/packaged_res/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config=":SharedQProtocol" from-dependency="true" generated-set=":SharedQProtocol$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SharedQProtocol/.build/SharedQProtocol/intermediates/packaged_res/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="test$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SharedQProtocol/src/test/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="test" generated-set="test$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SharedQProtocol/src/test/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="testDebug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SharedQProtocol/src/testDebug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="testDebug" generated-set="testDebug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SharedQProtocol/src/testDebug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SharedQProtocol/.build/SharedQProtocol/generated/res/resValues/test/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SharedQProtocol/.build/SharedQProtocol/generated/res/resValues/test/debug"/></dataSet><mergedItems/></merger>

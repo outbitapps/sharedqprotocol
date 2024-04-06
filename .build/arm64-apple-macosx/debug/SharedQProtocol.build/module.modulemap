@@ -1,0 +1,4 @@
+module SharedQProtocol {
+    header "/Users/paytondev/Documents/sharedqprotocol/.build/arm64-apple-macosx/debug/SharedQProtocol.build/SharedQProtocol-Swift.h"
+    requires objc
+}

@@ -1,0 +1,42 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="shared.qprotocol.test" >
+4
+5    <uses-sdk
+5-->/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipUnit/.build/SharedQProtocol/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest239418700051808548.xml:5:5-74
+6        android:minSdkVersion="29"
+6-->/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipUnit/.build/SharedQProtocol/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest239418700051808548.xml:5:15-41
+7        android:targetSdkVersion="29" />
+7-->/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipUnit/.build/SharedQProtocol/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest239418700051808548.xml:5:42-71
+8
+9    <instrumentation
+9-->/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipUnit/.build/SharedQProtocol/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest239418700051808548.xml:11:5-13:71
+10        android:name="android.test.InstrumentationTestRunner"
+10-->/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipUnit/.build/SharedQProtocol/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest239418700051808548.xml:11:22-75
+11        android:label="Tests for shared.qprotocol.test"
+11-->/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipUnit/.build/SharedQProtocol/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest239418700051808548.xml:13:22-69
+12        android:targetPackage="shared.qprotocol.test" />
+12-->/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipUnit/.build/SharedQProtocol/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest239418700051808548.xml:12:22-67
+13
+14    <queries>
+14-->[androidx.test:runner:1.5.2] /Users/paytondev/.gradle/caches/transforms-4/41dde5681ca4051bf510a511c0ef1809/transformed/runner-1.5.2/AndroidManifest.xml:24:5-28:15
+15        <package android:name="androidx.test.orchestrator" />
+15-->[androidx.test:runner:1.5.2] /Users/paytondev/.gradle/caches/transforms-4/41dde5681ca4051bf510a511c0ef1809/transformed/runner-1.5.2/AndroidManifest.xml:25:9-62
+15-->[androidx.test:runner:1.5.2] /Users/paytondev/.gradle/caches/transforms-4/41dde5681ca4051bf510a511c0ef1809/transformed/runner-1.5.2/AndroidManifest.xml:25:18-59
+16        <package android:name="androidx.test.services" />
+16-->[androidx.test:runner:1.5.2] /Users/paytondev/.gradle/caches/transforms-4/41dde5681ca4051bf510a511c0ef1809/transformed/runner-1.5.2/AndroidManifest.xml:26:9-58
+16-->[androidx.test:runner:1.5.2] /Users/paytondev/.gradle/caches/transforms-4/41dde5681ca4051bf510a511c0ef1809/transformed/runner-1.5.2/AndroidManifest.xml:26:18-55
+17        <package android:name="com.google.android.apps.common.testing.services" />
+17-->[androidx.test:runner:1.5.2] /Users/paytondev/.gradle/caches/transforms-4/41dde5681ca4051bf510a511c0ef1809/transformed/runner-1.5.2/AndroidManifest.xml:27:9-83
+17-->[androidx.test:runner:1.5.2] /Users/paytondev/.gradle/caches/transforms-4/41dde5681ca4051bf510a511c0ef1809/transformed/runner-1.5.2/AndroidManifest.xml:27:18-80
+18    </queries>
+19
+20    <application android:debuggable="true" >
+20-->/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipUnit/.build/SharedQProtocol/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest239418700051808548.xml:7:5-9:19
+20-->/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipUnit/.build/SharedQProtocol/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest239418700051808548.xml:7:18-43
+21        <uses-library android:name="android.test.runner" />
+21-->/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipUnit/.build/SharedQProtocol/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest239418700051808548.xml:8:9-60
+21-->/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipUnit/.build/SharedQProtocol/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest239418700051808548.xml:8:23-57
+22    </application>
+23
+24</manifest>

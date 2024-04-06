@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="shared.qprotocol.test" >
+4
+5    <uses-sdk
+5-->/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipFoundation/.build/SharedQProtocol/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest12080133448262809645.xml:5:5-74
+6        android:minSdkVersion="29"
+6-->/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipFoundation/.build/SharedQProtocol/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest12080133448262809645.xml:5:15-41
+7        android:targetSdkVersion="29" />
+7-->/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipFoundation/.build/SharedQProtocol/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest12080133448262809645.xml:5:42-71
+8
+9    <instrumentation
+9-->/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipFoundation/.build/SharedQProtocol/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest12080133448262809645.xml:11:5-13:71
+10        android:name="android.test.InstrumentationTestRunner"
+10-->/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipFoundation/.build/SharedQProtocol/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest12080133448262809645.xml:11:22-75
+11        android:label="Tests for shared.qprotocol.test"
+11-->/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipFoundation/.build/SharedQProtocol/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest12080133448262809645.xml:13:22-69
+12        android:targetPackage="shared.qprotocol.test" />
+12-->/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipFoundation/.build/SharedQProtocol/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest12080133448262809645.xml:12:22-67
+13
+14    <uses-permission android:name="android.permission.REORDER_TASKS" />
+14-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:24:5-72
+14-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:24:22-69
+15
+16    <queries>
+16-->[androidx.test:runner:1.5.2] /Users/paytondev/.gradle/caches/transforms-4/41dde5681ca4051bf510a511c0ef1809/transformed/runner-1.5.2/AndroidManifest.xml:24:5-28:15
+17        <package android:name="androidx.test.orchestrator" />
+17-->[androidx.test:runner:1.5.2] /Users/paytondev/.gradle/caches/transforms-4/41dde5681ca4051bf510a511c0ef1809/transformed/runner-1.5.2/AndroidManifest.xml:25:9-62
+17-->[androidx.test:runner:1.5.2] /Users/paytondev/.gradle/caches/transforms-4/41dde5681ca4051bf510a511c0ef1809/transformed/runner-1.5.2/AndroidManifest.xml:25:18-59
+18        <package android:name="androidx.test.services" />
+18-->[androidx.test:runner:1.5.2] /Users/paytondev/.gradle/caches/transforms-4/41dde5681ca4051bf510a511c0ef1809/transformed/runner-1.5.2/AndroidManifest.xml:26:9-58
+18-->[androidx.test:runner:1.5.2] /Users/paytondev/.gradle/caches/transforms-4/41dde5681ca4051bf510a511c0ef1809/transformed/runner-1.5.2/AndroidManifest.xml:26:18-55
+19        <package android:name="com.google.android.apps.common.testing.services" />
+19-->[androidx.test:runner:1.5.2] /Users/paytondev/.gradle/caches/transforms-4/41dde5681ca4051bf510a511c0ef1809/transformed/runner-1.5.2/AndroidManifest.xml:27:9-83
+19-->[androidx.test:runner:1.5.2] /Users/paytondev/.gradle/caches/transforms-4/41dde5681ca4051bf510a511c0ef1809/transformed/runner-1.5.2/AndroidManifest.xml:27:18-80
+20    </queries>
+21
+22    <application android:debuggable="true" >
+22-->/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipFoundation/.build/SharedQProtocol/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest12080133448262809645.xml:7:5-9:19
+22-->/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipFoundation/.build/SharedQProtocol/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest12080133448262809645.xml:7:18-43
+23        <uses-library android:name="android.test.runner" />
+23-->/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipFoundation/.build/SharedQProtocol/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest12080133448262809645.xml:8:9-60
+23-->/Users/paytondev/Documents/sharedqprotocol/.build/plugins/outputs/sharedqprotocol/SharedQProtocolTests/skipstone/SkipFoundation/.build/SharedQProtocol/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest12080133448262809645.xml:8:23-57
+24
+25        <activity
+25-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:27:9-34:20
+26            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+26-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:28:13-99
+27            android:exported="true"
+27-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:29:13-36
+28            android:theme="@style/WhiteBackgroundTheme" >
+28-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:30:13-56
+29            <intent-filter android:priority="-100" >
+29-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:31:13-33:29
+29-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:31:28-51
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:32:17-77
+30-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:32:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:35:9-42:20
+34            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+34-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:36:13-95
+35            android:exported="true"
+35-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:37:13-36
+36            android:theme="@style/WhiteBackgroundTheme" >
+36-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:38:13-56
+37            <intent-filter android:priority="-100" >
+37-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:31:13-33:29
+37-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:31:28-51
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:32:17-77
+38-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:32:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:43:9-50:20
+42            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+42-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:44:13-103
+43            android:exported="true"
+43-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:45:13-36
+44            android:theme="@style/WhiteBackgroundDialogTheme" >
+44-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:46:13-62
+45            <intent-filter android:priority="-100" >
+45-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:31:13-33:29
+45-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:31:28-51
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:32:17-77
+46-->[androidx.test:core:1.5.0] /Users/paytondev/.gradle/caches/transforms-4/5a3e06d60cc79b22321adafddd22f1ce/transformed/core-1.5.0/AndroidManifest.xml:32:27-74
+47            </intent-filter>
+48        </activity>
+49    </application>
+50
+51</manifest>

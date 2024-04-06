@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="shared.qprotocol.SharedQProtocolTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-06T19:46:03" hostname="Paytons-MacBook-Pro.local" time="0.242">
+  <properties/>
+  <testcase name="testSharedQProtocol$SharedQProtocol_debugUnitTest" classname="shared.qprotocol.SharedQProtocolTests" time="0.242"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Apr 06, 2024 3:46:03 PM skip.foundation.SkipLogger log
+INFO: running testSharedQProtocol
+]]></system-err>
+</testsuite>

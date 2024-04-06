@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/paytondev/Documents/sharedqprotocol/.build/arm64-apple-macosx/debug/SkipTest.build/master.swiftdeps"
+  },
+  "/Users/paytondev/Documents/sharedqprotocol/.build/checkouts/skip/Sources/SkipTest/XCGradleHarness.swift": {
+    "dependencies": "/Users/paytondev/Documents/sharedqprotocol/.build/arm64-apple-macosx/debug/SkipTest.build/XCGradleHarness.d",
+    "object": "/Users/paytondev/Documents/sharedqprotocol/.build/arm64-apple-macosx/debug/SkipTest.build/XCGradleHarness.swift.o",
+    "swiftmodule": "/Users/paytondev/Documents/sharedqprotocol/.build/arm64-apple-macosx/debug/SkipTest.build/XCGradleHarness~partial.swiftmodule",
+    "swift-dependencies": "/Users/paytondev/Documents/sharedqprotocol/.build/arm64-apple-macosx/debug/SkipTest.build/XCGradleHarness.swiftdeps"
+  }
+}

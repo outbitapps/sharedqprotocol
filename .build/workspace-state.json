@@ -1,0 +1,93 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "kind" : "artifactsArchive",
+        "packageRef" : {
+          "identity" : "skip",
+          "kind" : "remoteSourceControl",
+          "location" : "https://source.skip.tools/skip.git",
+          "name" : "skip"
+        },
+        "path" : "/Users/paytondev/Documents/sharedqprotocol/.build/artifacts/skip/skip/skip.artifactbundle",
+        "source" : {
+          "checksum" : "6f1382268271a9edc707d07e83a6bc0537a2cfbdc866318530925d8a54e08e7b",
+          "type" : "remote",
+          "url" : "https://source.skip.tools/skip/releases/download/0.8.29/skip.zip"
+        },
+        "targetName" : "skip"
+      }
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "skip",
+          "kind" : "remoteSourceControl",
+          "location" : "https://source.skip.tools/skip.git",
+          "name" : "skip"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "1c17779236b1d365082d9b4d4672b0e8a799dfaa",
+            "version" : "0.8.29"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "skip"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "skip-foundation",
+          "kind" : "remoteSourceControl",
+          "location" : "https://source.skip.tools/skip-foundation.git",
+          "name" : "skip-foundation"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "6e1e70d217d344f18dc6173ff58ad8ce928f9343",
+            "version" : "0.5.15"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "skip-foundation"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "skip-lib",
+          "kind" : "remoteSourceControl",
+          "location" : "https://source.skip.tools/skip-lib.git",
+          "name" : "skip-lib"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "2c269fdf69c9372efeaf93abd5e94f03b4ac83c2",
+            "version" : "0.7.8"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "skip-lib"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "skip-unit",
+          "kind" : "remoteSourceControl",
+          "location" : "https://source.skip.tools/skip-unit.git",
+          "name" : "skip-unit"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "61d6e0ed30b3f98293c6a8dd94ed1aa08152c050",
+            "version" : "0.6.5"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "skip-unit"
+      }
+    ]
+  },
+  "version" : 6
+}

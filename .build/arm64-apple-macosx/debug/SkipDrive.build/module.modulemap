@@ -1,0 +1,4 @@
+module SkipDrive {
+    header "/Users/paytondev/Documents/sharedqprotocol/.build/arm64-apple-macosx/debug/SkipDrive.build/SkipDrive-Swift.h"
+    requires objc
+}

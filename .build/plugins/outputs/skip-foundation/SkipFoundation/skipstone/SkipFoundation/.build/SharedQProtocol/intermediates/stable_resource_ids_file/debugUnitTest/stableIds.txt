@@ -1,0 +1,2 @@
+shared.qprotocol.test:style/WhiteBackgroundTheme = 0x7f010001
+shared.qprotocol.test:style/WhiteBackgroundDialogTheme = 0x7f010000

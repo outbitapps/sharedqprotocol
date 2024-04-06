@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/paytondev/Documents/sharedqprotocol/.build/arm64-apple-macosx/debug/SharedQProtocolTests.build/master.swiftdeps"
+  },
+  "/Users/paytondev/Documents/sharedqprotocol/Tests/SharedQProtocolTests/SharedQProtocolTests.swift": {
+    "dependencies": "/Users/paytondev/Documents/sharedqprotocol/.build/arm64-apple-macosx/debug/SharedQProtocolTests.build/SharedQProtocolTests.d",
+    "object": "/Users/paytondev/Documents/sharedqprotocol/.build/arm64-apple-macosx/debug/SharedQProtocolTests.build/SharedQProtocolTests.swift.o",
+    "swiftmodule": "/Users/paytondev/Documents/sharedqprotocol/.build/arm64-apple-macosx/debug/SharedQProtocolTests.build/SharedQProtocolTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/paytondev/Documents/sharedqprotocol/.build/arm64-apple-macosx/debug/SharedQProtocolTests.build/SharedQProtocolTests.swiftdeps"
+  },
+  "/Users/paytondev/Documents/sharedqprotocol/Tests/SharedQProtocolTests/XCSkipTests.swift": {
+    "dependencies": "/Users/paytondev/Documents/sharedqprotocol/.build/arm64-apple-macosx/debug/SharedQProtocolTests.build/XCSkipTests.d",
+    "object": "/Users/paytondev/Documents/sharedqprotocol/.build/arm64-apple-macosx/debug/SharedQProtocolTests.build/XCSkipTests.swift.o",
+    "swiftmodule": "/Users/paytondev/Documents/sharedqprotocol/.build/arm64-apple-macosx/debug/SharedQProtocolTests.build/XCSkipTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/paytondev/Documents/sharedqprotocol/.build/arm64-apple-macosx/debug/SharedQProtocolTests.build/XCSkipTests.swiftdeps"
+  },
+  "/Users/paytondev/Documents/sharedqprotocol/.build/arm64-apple-macosx/debug/SharedQProtocolTests.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/paytondev/Documents/sharedqprotocol/.build/arm64-apple-macosx/debug/SharedQProtocolTests.build/resource_bundle_accessor.d",
+    "object": "/Users/paytondev/Documents/sharedqprotocol/.build/arm64-apple-macosx/debug/SharedQProtocolTests.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/paytondev/Documents/sharedqprotocol/.build/arm64-apple-macosx/debug/SharedQProtocolTests.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/paytondev/Documents/sharedqprotocol/.build/arm64-apple-macosx/debug/SharedQProtocolTests.build/resource_bundle_accessor.swiftdeps"
+  }
+}

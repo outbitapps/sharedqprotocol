@@ -1,0 +1,1 @@
+/Users/paytondev/Documents/sharedqprotocol/.build/checkouts/skip-foundation/Sources/SkipFoundation/Skip/UrlEncoderUtil.kt
