@@ -46,18 +46,19 @@ public struct SQGroup: Identifiable, Codable {
         self.joinRequests = joinRequests
     }
 }
+
 public struct SQPlaybackState: Identifiable, Codable {
     public var id: UUID = UUID()
     /// The play/pause state of the currently playing song
     public var state: PlayPauseState
     /// The current timestamp of the currently playing song (note: do not use this for timestamp updates, use `SharedQSyncDelegate.onTimestampUpdate` instead. this should be used for displaying the timestamp to the user)
     public var timestamp: TimeInterval
-    public init(id: UUID, state: PlayPauseState, timestamp: TimeInterval) {
+    public init(id: UUID = UUID(), state: PlayPauseState, timestamp: TimeInterval) {
         self.id = id
         self.state = state
         self.timestamp = timestamp
     }
-    }
+}
 
 public enum PlayPauseState: Int, Codable {
     /// The song is playing
@@ -197,13 +198,13 @@ public enum WSMessageType: Int, Codable {
     case addToQueue = 8
 }
 
-
 public struct WSPlaybackStartedMessage: Codable {
     public var startedAt: Date
     public init(startedAt: Date) {
         self.startedAt = startedAt
     }
 }
+
 public struct WSTimestampUpdate: Codable {
     public var timestamp: TimeInterval
     public var sentAt: Date
