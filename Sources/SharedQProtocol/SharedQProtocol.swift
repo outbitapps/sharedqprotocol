@@ -80,7 +80,7 @@ public struct SQSong: Identifiable, Codable {
     public var textColor: String? = nil
     /// The duration of the song
     public var duration: TimeInterval
-    public init(id: String = UUID().uuidString, title: String, artist: String, albumArt: URL? = nil, colors: [String], textColor: String? = nil, duration: TimeInterval) {
+    public init(id: String = UUID().uuidString, title: String, artist: String, albumArt: URL? = nil, colors: [String] = [], textColor: String? = nil, duration: TimeInterval) {
         self.id = id
         self.title = title
         self.artist = artist
