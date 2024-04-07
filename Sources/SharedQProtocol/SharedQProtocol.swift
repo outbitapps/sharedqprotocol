@@ -113,7 +113,7 @@ public struct SQUser: Identifiable, Codable {
     public var email: String?
     /// The `id`s of groups the user is a member of
     public var groups: [String]
-    public init(id: String, username: String, email: String? = nil, groups: [String]) {
+    public init(id: String, username: String, email: String? = nil, groups: [String] = []) {
         self.id = id
         self.username = username
         self.email = email
