@@ -2,7 +2,7 @@ import Foundation
 
 public struct SQGroup: Identifiable, Codable {
     /// The ID of the group
-    public var id: String
+    public var id: UUID
     /// The name of the group
     public var name: String
     /// The owner of thr group
@@ -29,7 +29,7 @@ public struct SQGroup: Identifiable, Codable {
     public var groupURL: URL?
     /// The users attempting to join the group (if ask to join is enabled)
     public var joinRequests: [SQUser] = []
-    public init(id: String, name: String, owner: SQUser, defaultPermissions: SQDefaultPermissions, members: [SQUserPermissions] = [], connectedMembers: [SQUser] = [], publicGroup: Bool, askToJoin: Bool, wsURL: URL? = nil, currentlyPlaying: SQSong? = nil, previewQueue: [SQQueueItem], playbackState: SQPlaybackState? = nil, groupURL: URL? = nil, joinRequests: [SQUser] = []) {
+    public init(id: UUID, name: String, owner: SQUser, defaultPermissions: SQDefaultPermissions, members: [SQUserPermissions] = [], connectedMembers: [SQUser] = [], publicGroup: Bool, askToJoin: Bool, wsURL: URL? = nil, currentlyPlaying: SQSong? = nil, previewQueue: [SQQueueItem], playbackState: SQPlaybackState? = nil, groupURL: URL? = nil, joinRequests: [SQUser] = []) {
         self.id = id
         self.name = name
         self.owner = owner
@@ -68,7 +68,7 @@ public enum PlayPauseState: Int, Codable {
 }
 
 public struct SQSong: Identifiable, Codable {
-    public var id: String = UUID().uuidString
+    public var id: UUID = UUID()
     /// The title of the song
     public var title: String
     /// The name of the artist(s)
@@ -81,7 +81,7 @@ public struct SQSong: Identifiable, Codable {
     public var textColor: String? = nil
     /// The duration of the song
     public var duration: TimeInterval
-    public init(id: String = UUID().uuidString, title: String, artist: String, albumArt: URL? = nil, colors: [String] = [], textColor: String? = nil, duration: TimeInterval) {
+    public init(id: UUID = UUID(), title: String, artist: String, albumArt: URL? = nil, colors: [String] = [], textColor: String? = nil, duration: TimeInterval) {
         self.id = id
         self.title = title
         self.artist = artist
@@ -93,12 +93,12 @@ public struct SQSong: Identifiable, Codable {
 }
 
 public struct SQDefaultPermissions: Codable, Identifiable {
-    public var id: String
+    public var id: UUID
     /// Controls whether or not members can control playback (play/pause, skip, seek)
     public var membersCanControlPlayback: Bool
     /// Controls whether or not members can add songs to queue
     public var membersCanAddToQueue: Bool
-    public init(id: String, membersCanControlPlayback: Bool, membersCanAddToQueue: Bool) {
+    public init(id: UUID = UUID(), membersCanControlPlayback: Bool, membersCanAddToQueue: Bool) {
         self.id = id
         self.membersCanControlPlayback = membersCanControlPlayback
         self.membersCanAddToQueue = membersCanAddToQueue
@@ -136,7 +136,7 @@ public struct SQQueueItem: Identifiable, Codable {
 }
 
 public struct SQUserPermissions: Codable, Identifiable {
-    public var id: String
+    public var id: UUID
     /// The user
     public var user: SQUser
     /// Whether or not the user can control playback
@@ -145,7 +145,7 @@ public struct SQUserPermissions: Codable, Identifiable {
     public var canAddToQueue: Bool
     /// The last time the user joined a live listening session
     public var lastConnected: Date?
-    public init(id: String, user: SQUser, canControlPlayback: Bool, canAddToQueue: Bool, lastConnected: Date? = nil) {
+    public init(id: UUID, user: SQUser, canControlPlayback: Bool, canAddToQueue: Bool, lastConnected: Date? = nil) {
         self.id = id
         self.user = user
         self.canControlPlayback = canControlPlayback
@@ -155,9 +155,9 @@ public struct SQUserPermissions: Codable, Identifiable {
 }
 
 public struct JoinGroupRequest: Codable {
-    public var myUID: String
-    public var groupID: String
-    public init(myUID: String, groupID: String) {
+    public var myUID: UUID
+    public var groupID: UUID
+    public init(myUID: UUID, groupID: UUID) {
         self.myUID = myUID
         self.groupID = groupID
     }
