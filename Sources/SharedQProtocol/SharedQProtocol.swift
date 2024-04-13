@@ -213,3 +213,21 @@ public struct WSTimestampUpdate: Codable {
         self.sentAt = sentAt
     }
 }
+
+struct FetchUserRequest: Codable {
+    var uid: String
+}
+
+struct FetchGroupRequest: Codable {
+    var myUID: String
+    var groupID: String
+}
+
+struct UpdateGroupRequest: Codable {
+    var myUID: String
+    var group: SQGroup
+}
+
+struct AddGroupRequest: Codable {
+    var myUID: String
+}
