@@ -11,8 +11,8 @@ public struct SQGroup: Identifiable, Codable {
     public var defaultPermissions: SQDefaultPermissions
     /// The members of the group (and their specific permissions)
     public var members: [SQUserPermissions] = []
-    /// The `id`'s of users currently in a live listening session
-    public var connectedMembers: [String] = []
+    /// The users currently in a live listening session
+    public var connectedMembers: [SQUser] = []
     /// Whether or not the group is public
     public var publicGroup: Bool
     /// Whether or not askToJoin is enabled
@@ -27,9 +27,9 @@ public struct SQGroup: Identifiable, Codable {
     public var playbackState: SQPlaybackState?
     /// (unused by client) the URL used to join the group
     public var groupURL: URL?
-    /// The `id`'s of users attempting to join the group (if ask to join is enabled)
-    public var joinRequests: [String] = []
-    public init(id: String, name: String, owner: SQUser, defaultPermissions: SQDefaultPermissions, members: [SQUserPermissions] = [], connectedMembers: [String] = [], publicGroup: Bool, askToJoin: Bool, wsURL: URL? = nil, currentlyPlaying: SQSong? = nil, previewQueue: [SQQueueItem], playbackState: SQPlaybackState? = nil, groupURL: URL? = nil, joinRequests: [String] = []) {
+    /// The users attempting to join the group (if ask to join is enabled)
+    public var joinRequests: [SQUser] = []
+    public init(id: String, name: String, owner: SQUser, defaultPermissions: SQDefaultPermissions, members: [SQUserPermissions] = [], connectedMembers: [SQUser] = [], publicGroup: Bool, askToJoin: Bool, wsURL: URL? = nil, currentlyPlaying: SQSong? = nil, previewQueue: [SQQueueItem], playbackState: SQPlaybackState? = nil, groupURL: URL? = nil, joinRequests: [SQUser] = []) {
         self.id = id
         self.name = name
         self.owner = owner
