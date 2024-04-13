@@ -231,3 +231,14 @@ public struct UpdateGroupRequest: Codable {
 public struct AddGroupRequest: Codable {
     public var myUID: UUID
 }
+
+public struct NewSession: Codable {
+  public let token: String
+  public let user: SQUser
+}
+
+public struct UserSignup: Codable {
+    public let email: String
+    public let username: String
+    public let password: String
+}
