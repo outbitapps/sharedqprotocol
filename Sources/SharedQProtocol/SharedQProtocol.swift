@@ -106,15 +106,15 @@ public struct SQDefaultPermissions: Codable, Identifiable {
 }
 
 public struct SQUser: Identifiable, Codable {
-    /// The user's FirebaseAuth UID
-    public var id: String
+    /// The user's ID
+    public var id: UUID
     /// The user's username
     public var username: String
     /// The user's email (if they signed up using an email address(
     public var email: String?
     /// The `id`s of groups the user is a member of
     public var groups: [String]
-    public init(id: String, username: String, email: String? = nil, groups: [String] = []) {
+    public init(id: UUID, username: String, email: String? = nil, groups: [String] = []) {
         self.id = id
         self.username = username
         self.email = email
