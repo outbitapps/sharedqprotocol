@@ -235,10 +235,19 @@ public struct AddGroupRequest: Codable {
 public struct NewSession: Codable {
   public let token: String
   public let user: SQUser
+    public init(token: String, user: SQUser) {
+        self.token = token
+        self.user = user
+    }
 }
 
 public struct UserSignup: Codable {
     public let email: String
     public let username: String
     public let password: String
+    public init(email: String, username: String, password: String) {
+        self.email = email
+        self.username = username
+        self.password = password
+    }
 }
