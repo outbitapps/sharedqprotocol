@@ -112,9 +112,9 @@ public struct SQUser: Identifiable, Codable {
     public var username: String
     /// The user's email (if they signed up using an email address(
     public var email: String?
-    /// The `id`s of groups the user is a member of
-    public var groups: [String]
-    public init(id: UUID, username: String, email: String? = nil, groups: [String] = []) {
+    /// The groups the user is a member of
+    public var groups: [SQGroup]
+    public init(id: UUID, username: String, email: String? = nil, groups: [SQGroup] = []) {
         self.id = id
         self.username = username
         self.email = email
