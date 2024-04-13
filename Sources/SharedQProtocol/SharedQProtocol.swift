@@ -216,20 +216,34 @@ public struct WSTimestampUpdate: Codable {
 
 public struct FetchUserRequest: Codable {
     public var uid: UUID
+    public init(uid: UUID) {
+        self.uid = uid
+    }
 }
 
 public struct FetchGroupRequest: Codable {
     public var myUID: UUID
     public var groupID: UUID
+    public init(myUID: UUID, groupID: UUID) {
+        self.myUID = myUID
+        self.groupID = groupID
+    }
 }
 
 public struct UpdateGroupRequest: Codable {
     public var myUID: UUID
     public var group: SQGroup
+    public init(myUID: UUID, group: SQGroup) {
+        self.myUID = myUID
+        self.group = group
+    }
 }
 
 public struct AddGroupRequest: Codable {
     public var myUID: UUID
+    public init(myUID: UUID) {
+        self.myUID = myUID
+    }
 }
 
 public struct NewSession: Codable {
