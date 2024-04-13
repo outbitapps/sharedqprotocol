@@ -214,20 +214,20 @@ public struct WSTimestampUpdate: Codable {
     }
 }
 
-struct FetchUserRequest: Codable {
-    var uid: String
+public struct FetchUserRequest: Codable {
+    public var uid: UUID
 }
 
-struct FetchGroupRequest: Codable {
-    var myUID: String
-    var groupID: String
+public struct FetchGroupRequest: Codable {
+    public var myUID: UUID
+    public var groupID: UUID
 }
 
-struct UpdateGroupRequest: Codable {
-    var myUID: String
-    var group: SQGroup
+public struct UpdateGroupRequest: Codable {
+    public var myUID: UUID
+    public var group: SQGroup
 }
 
-struct AddGroupRequest: Codable {
-    var myUID: String
+public struct AddGroupRequest: Codable {
+    public var myUID: UUID
 }
