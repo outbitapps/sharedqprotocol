@@ -5,12 +5,10 @@ public struct SQGroup: Identifiable, Codable {
     public var id: UUID
     /// The name of the group
     public var name: String
-    /// The owner of thr group
-    public var owner: SQUser
     /// The default permissions of the group
     public var defaultPermissions: SQDefaultPermissions
-    /// The members of the group (and their specific permissions)
-    public var members: [SQUserPermissions] = []
+    /// The members of the group (and their group-specific info)
+    public var members: [SQGroupMember] = []
     /// The users currently in a live listening session
     public var connectedMembers: [SQUser] = []
     /// Whether or not the group is public
@@ -29,10 +27,9 @@ public struct SQGroup: Identifiable, Codable {
     public var groupURL: URL?
     /// The users attempting to join the group (if ask to join is enabled)
     public var joinRequests: [SQUser] = []
-    public init(id: UUID, name: String, owner: SQUser, defaultPermissions: SQDefaultPermissions, members: [SQUserPermissions] = [], connectedMembers: [SQUser] = [], publicGroup: Bool, askToJoin: Bool, wsURL: URL? = nil, currentlyPlaying: SQSong? = nil, previewQueue: [SQQueueItem], playbackState: SQPlaybackState? = nil, groupURL: URL? = nil, joinRequests: [SQUser] = []) {
+    public init(id: UUID, name: String, defaultPermissions: SQDefaultPermissions, members: [SQGroupMember] = [], connectedMembers: [SQUser] = [], publicGroup: Bool, askToJoin: Bool, wsURL: URL? = nil, currentlyPlaying: SQSong? = nil, previewQueue: [SQQueueItem], playbackState: SQPlaybackState? = nil, groupURL: URL? = nil, joinRequests: [SQUser] = []) {
         self.id = id
         self.name = name
-        self.owner = owner
         self.defaultPermissions = defaultPermissions
         self.members = members
         self.connectedMembers = connectedMembers
@@ -135,7 +132,7 @@ public struct SQQueueItem: Identifiable, Codable {
     }
 }
 
-public struct SQUserPermissions: Codable, Identifiable {
+public struct SQGroupMember: Codable, Identifiable {
     public var id: UUID
     /// The user
     public var user: SQUser
@@ -145,12 +142,23 @@ public struct SQUserPermissions: Codable, Identifiable {
     public var canAddToQueue: Bool
     /// The last time the user joined a live listening session
     public var lastConnected: Date?
-    public init(id: UUID, user: SQUser, canControlPlayback: Bool, canAddToQueue: Bool, lastConnected: Date? = nil) {
+    /// Whether or not the user created the parent group
+    public var isOwner: Bool
+    public init(id: UUID, user: SQUser, canControlPlayback: Bool, canAddToQueue: Bool, lastConnected: Date? = nil, isOwner: Bool) {
         self.id = id
         self.user = user
         self.canControlPlayback = canControlPlayback
         self.canAddToQueue = canAddToQueue
         self.lastConnected = lastConnected
+        self.isOwner = isOwner
+    }
+    public init(id: UUID = UUID(), user: SQUser, isOwner: Bool, lastConnected: Date? = nil, defaultPermissions: SQDefaultPermissions) {
+        self.id = id
+        self.user = user
+        self.canControlPlayback = defaultPermissions.membersCanControlPlayback
+        self.canAddToQueue = defaultPermissions.membersCanAddToQueue
+        self.lastConnected = lastConnected
+        self.isOwner = isOwner
     }
 }
 
