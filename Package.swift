@@ -24,7 +24,7 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-docc", branch: "main")
     ],
     targets: [
-        .target(name: "SharedQProtocol", dependencies: (zero ? [] : [.product(name: "SkipFoundation", package: "skip-foundation")]), resources: [.process("Resources")]/*, plugins: skipstone*/),
+        .target(name: "SharedQProtocol", dependencies: (zero ? [] : [.product(name: "SkipFoundation", package: "skip-foundation")]), resources: [.process("Resources")], plugins: skipstone),
         .testTarget(name: "SharedQProtocolTests", dependencies: ["SharedQProtocol"] + (zero ? [] : [.product(name: "SkipTest", package: "skip")]), resources: [.process("Resources")], plugins: skipstone),
     ]
 )
