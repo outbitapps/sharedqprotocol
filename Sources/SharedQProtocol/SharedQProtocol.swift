@@ -175,10 +175,10 @@ public struct WSMessage: Codable {
     /// The specific message
     public var type: WSMessageType
     /// The data associated with the message
-    public var data: Data
+    public var data: String
     /// The date the message was sent. Use this to ensure a perfect sync
     public var sentAt: Date
-    public init(type: WSMessageType, data: Data, sentAt: Date) {
+    public init(type: WSMessageType, data: String, sentAt: Date) {
         self.type = type
         self.data = data
         self.sentAt = sentAt
