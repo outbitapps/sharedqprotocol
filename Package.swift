@@ -22,6 +22,5 @@ let package = Package(
     ],
     targets: [
         .target(name: "SharedQProtocol", dependencies: ([]), resources: [.process("Resources")]),
-        .testTarget(name: "SharedQProtocolTests", dependencies: ["SharedQProtocol"]), resources: [.process("Resources")]),
     ]
 )
