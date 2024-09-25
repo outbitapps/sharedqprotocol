@@ -78,7 +78,9 @@ public struct SQSong: Identifiable, Codable {
     public var textColor: String? = nil
     /// The duration of the song
     public var duration: TimeInterval
-    public init(id: UUID = UUID(), title: String, artist: String, albumArt: URL? = nil, colors: [String] = [], textColor: String? = nil, duration: TimeInterval) {
+    /// the ISRC code of the song
+    public var isrc: String
+    public init(id: UUID = UUID(), title: String, artist: String, albumArt: URL? = nil, colors: [String] = [], textColor: String? = nil, duration: TimeInterval, isrc: String) {
         self.id = id
         self.title = title
         self.artist = artist
@@ -86,6 +88,7 @@ public struct SQSong: Identifiable, Codable {
         self.colors = colors
         self.textColor = textColor
         self.duration = duration
+        self.isrc = isrc
     }
 }
 
